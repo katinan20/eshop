@@ -23,7 +23,8 @@
 
     <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> POLO </a>
 
-    <nav class="navbar">    
+    <nav class="navbar">  
+        <button class="btn" id="category-btn">Catégories</button>
         <a href="#home">Accueil</a>
         <a href="#features">Présentation</a>
         <a href="#products">Partenaria</a>
@@ -75,7 +76,32 @@
         <div class="total"> total : $19.69/- </div>
         <a href="#" class="btn">checkout</a>
     </div>
+    
+    <div class="category-cart">
+        <div class="box">
+            <img src="../public/images/img/chaussures.png" alt="">
+            <div class="content">
+                <a href="#"><h3>Chaussures</h3></a>
+                <span class="price">Jusqu'à 45% De Réduction</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../public/images/img/chemise.png" alt="">
+            <div class="content">
+               <a href="#"><h3>Chemises</h3></a>
+                <span class="price">Jusqu'à 45% De Réduction</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../public/images/img/pantalon.png" alt="">
+            <div class="content">
+                <a href="#"><h3>Patanlon</h3></a>
+                <span class="price">Jusqu'à 45% De Réduction</span>
 
+            </div>
+        </div>
+    </div>
+    
     <form action="" class="login-form">
         <h3>login now</h3>
         <input type="email" placeholder="your email" class="box">
@@ -94,9 +120,9 @@
 <section class="home" id="home">
 
     <div class="content">
-        <h3>fresh and <span>organic</span> products for your</h3>
+        <h3>Des <span>produits</span> faits pour vous</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
-        <a href="#" class="btn">shop now</a>
+        <a href="#" class="btn">Achetez maintenant</a>
     </div>
 
 </section>
@@ -107,7 +133,7 @@
 
 <section class="features" id="features">
 
-    <h1 class="heading"> our <span>features</span> </h1>
+    <h1 class="heading"> Nos <span>fonctionnalités</span> </h1>
 
     <div class="box-container">
 

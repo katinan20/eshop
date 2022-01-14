@@ -5,12 +5,24 @@ document.querySelector('#search-btn').onclick = () =>{
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
+    categoryCart.classList.remove('active');
 }
 
 let shoppingCart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () =>{
     shoppingCart.classList.toggle('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+    navbar.classList.remove('active');
+    categoryCart.classList.remove('active');
+}
+
+let categoryCart = document.querySelector('.category-cart');
+
+document.querySelector('#category-btn').onclick = () =>{
+    categoryCart.classList.toggle('active');
+    shoppingCart.classList.remove('active');
     searchForm.classList.remove('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
@@ -23,6 +35,7 @@ document.querySelector('#login-btn').onclick = () =>{
     searchForm.classList.remove('active');
     shoppingCart.classList.remove('active');
     navbar.classList.remove('active');
+    categoryCart.classList.remove('active');
 }
 
 let navbar = document.querySelector('.navbar');
@@ -32,6 +45,7 @@ document.querySelector('#menu-btn').onclick = () =>{
     searchForm.classList.remove('active');
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
+    categoryCart.classList.remove('active');
 }
 
 window.onscroll = () =>{
@@ -39,6 +53,7 @@ window.onscroll = () =>{
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
+    categoryCart.classList.remove('active');
 }
 
 var swiper = new Swiper(".product-slider", {

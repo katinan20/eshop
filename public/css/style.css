@@ -100,6 +100,16 @@ section{
     color:var(--orange);
 }
 
+.header .navbar button{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black);
+}
+
+.header .navbar button:hover{
+    color: white;
+}
+
 .header .icons div{
     height: 4.5rem;
     width: 4.5rem;
@@ -229,6 +239,80 @@ section{
     margin:1rem;
 }
 
+
+
+.header .category-cart{
+    position: absolute;
+    top:110%; right:-110%;
+    padding:1rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    width:35rem;
+    background: #fff;
+}
+
+.header .category-cart.active{
+    left:2rem;
+    transition: .4s linear;
+}
+
+.header .category-cart .box{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    position: relative;
+    margin:1rem 0;
+}
+
+.header .category-cart .box img{
+    height:10rem;
+}
+
+.header .category-cart .box .fa-trash{
+    font-size: 2rem;
+    position: absolute;
+    top:50%; right:2rem;
+    cursor: pointer;
+    color:var(--light-color);
+    transform: translateY(-50%);
+}
+
+.header .category-cart .box .fa-trash:hover{
+    color:var(--orange);
+}
+
+.header .category-cart .box .content h3{
+    color:var(--black);
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+.header .category-cart .box .content h3:hover{
+    color:var(--orange);
+}
+
+
+.header .category-cart .box .content span{
+    color:var(--light-color);
+    font-size: 1.6rem;
+}
+
+.header .category-cart .box .content .quantity{
+    padding-left: 1rem;
+}
+
+.header .category-cart .total{
+    font-size: 2.5rem;
+    padding:1rem 0;
+    text-align: center;
+    color:var(--black);
+}
+
+.header .category-cart .btn{
+    display: block;
+    text-align: center;
+    margin:1rem;
+}
+
 .header .login-form{
     position: absolute;
     top:110%; right:-110%;
@@ -276,8 +360,8 @@ section{
 .home{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: url(../images/img/banner-bg.webp) no-repeat;
+    justify-content: left;
+    background: url(../images/img/cart_8.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;

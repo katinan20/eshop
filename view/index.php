@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,15 +21,15 @@
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> groco </a>
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> POLO </a>
 
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#features">features</a>
-        <a href="#products">products</a>
-        <a href="#categories">categories</a>
-        <a href="#review">review</a>
-        <a href="#blogs">blogs</a>
+    <nav class="navbar">    
+        <a href="#home">Accueil</a>
+        <a href="#features">Présentation</a>
+        <a href="#products">Partenaria</a>
+        <a href="#categories">News</a>
+        <a href="#review">Contacts</a>
+        <!--<a href="#blogs">blogs</a>-->
     </nav>
 
     <div class="icons">
